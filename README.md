@@ -39,6 +39,7 @@ This project provides a Python script for encrypting and decrypting images using
 ## Example
 
 To encrypt an image:
+
 python main.py
 Do you want to (E)ncrypt or (D)ecrypt an image? E
 Enter the path of the image: C:\Users\LENOVO\Desktop\New folder\jeep.jpg
@@ -47,6 +48,7 @@ Enter the encryption key (a number): 50
 
 
 To decrypt an image:
+
 python main.py
 Do you want to (E)ncrypt or (D)ecrypt an image? D
 Enter the path of the image: C:\Users\LENOVO\Desktop\nk\Ejeep.jpg
@@ -54,5 +56,6 @@ Enter the output path for the new image: C:\Users\LENOVO\Desktop\New folder\Djee
 Enter the encryption key (a number): 50
 
 Notes
+
 Ensure that the input paths are correct and that you have read/write permissions for the specified directories.
 Adjust the encryption key as needed. Ensure the key used for decryption matches the one used for encryption to correctly recover the original image.
